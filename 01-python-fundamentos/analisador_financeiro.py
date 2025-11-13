@@ -10,7 +10,7 @@ transacoes = [
     {"descricao": "Academia", "valor": 120, "tipo": "despesa"}
 ]
 
-# ✅ Calcular saldo total
+
 saldo = 0
 for t in transacoes:
     if t["tipo"] == "receita":
@@ -18,11 +18,11 @@ for t in transacoes:
     else:
         saldo -= t["valor"]
 
-# ✅ Mostrar maior despesa
+
 despesas = [t for t in transacoes if t["tipo"] == "despesa"]
 maior_despesa = max(despesas, key=lambda d: d["valor"])
 
-# ✅ Calcular média de gastos
+
 media_gastos = sum(d["valor"] for d in despesas) / len(despesas)
 print("📊 Analisador Financeiro Pessoal")
 
