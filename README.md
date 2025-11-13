@@ -1,13 +1,21 @@
 # ia-ml-automation-portfolio
-##  Progresso Diário
-- **Dia 1:** ✅ Fundamentos Python + Primeiro fluxo n8n
-- **Dia 2:** 🔄 Analisador Financeiro + Webhooks
+## 🎯 Sobre
+Repositório documentando minha evolução em Inteligência Artificial, Machine Learning e Automação com n8n. Foco em projetos práticos e aplicações reais.
 
-##  Projetos
-- [Analisador Financeiro Pessoal](/01-fundamentos-python/)
-- [Sistema de Webhooks n8n](/02-automacao-n8n/)
+## 📊 Progresso Diário
+- **Dia 1** ✅: Fundamentos Python, primeiro fluxo n8n, criação do portfólio
+- **Dia 2** 🔄: Kaggle Python, analisador financeiro, webhooks
 
-##  Metas
-- [X] Criar repositório público
-- [ ] Primeiro modelo de ML (30 dias)
-- [ ] Projeto integrado completo (60 dias)
+## 🛠 Stack Principal
+- **Linguagens:** Python, SQL
+- **Ferramentas:** n8n, VS Code, Git
+- **Plataformas:** Kaggle, GitHub
+
+## 🗂 Projetos
+- [Analisador Financeiro Pessoal](/01-python-fundamentos/)
+- [Fluxos de Automação n8n](/02-n8n-automation/)
+
+## 🎯 Metas
+- [ ] Primeiro modelo de ML em produção (30 dias)
+- [ ] 3 projetos integrados completos (60 dias)
+- [ ] Emprego na área (180 dias)
