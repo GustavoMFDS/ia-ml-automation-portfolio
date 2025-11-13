@@ -1,0 +1,60 @@
+{
+  "name": "My workflow 2",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {}
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        128,
+        0
+      ],
+      "id": "b0dbb016-4457-4bc1-a8c2-5bc7b87386fa",
+      "name": "Schedule Trigger"
+    },
+    {
+      "parameters": {
+        "url": "https://api.chucknorris.io/jokes/random",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.3,
+      "position": [
+        -32,
+        -208
+      ],
+      "id": "75a4adde-905b-4ac9-b75e-82a9aee57cdf",
+      "name": "HTTP Request"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "35dbd106-7c3e-4af7-b303-ac78cb230715",
+  "meta": {
+    "instanceId": "e887e58f9efc3f623770300ae2333c65c9b3d0b5d3e9f5d22dca7df1ba9f3911"
+  },
+  "id": "ovzuUIvKrNNNVlvy",
+  "tags": []
+}
