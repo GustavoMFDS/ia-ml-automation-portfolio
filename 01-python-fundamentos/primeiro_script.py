@@ -1,4 +1,4 @@
-print("🔥 Minha Jornada em IA Começou AGORA!")
+print(" Minha Jornada em IA Começou AGORA!")
 
 metas = [
     "1. Dominar Python em 30 dias",
@@ -8,6 +8,6 @@ metas = [
 ]
 
 for meta in metas:
-    print(f"🎯 {meta}")
+    print(f" {meta}")
 
-print("💪 BORA TRABALHAR!")
+print(" BORA TRABALHAR!")
